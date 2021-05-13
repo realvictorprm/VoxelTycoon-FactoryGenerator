@@ -1,4 +1,4 @@
 ﻿{
 	"Title": "FactoryGenerator",
-	"Description": "Generates some additional starting factories for new saves."
+	"Description": "Generates alloy smelters in the first region for each city so it's possible to supply businesses with advanced materials sooner."
 }

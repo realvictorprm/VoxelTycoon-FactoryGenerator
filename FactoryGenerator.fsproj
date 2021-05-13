@@ -11,7 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="mod.json" />
+    <Content Include="mod.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="VoxelTycoon.ImmutableList.fs" />
     <Compile Include="FactoryGenerator.fs" />
   </ItemGroup>
   
@@ -34,6 +37,10 @@
     </Reference>
     <Reference Include="DotnetZip">
       <HintPath>..\..\..\VoxelTycoon_Data\Managed\DotnetZip.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\VoxelTycoon_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
