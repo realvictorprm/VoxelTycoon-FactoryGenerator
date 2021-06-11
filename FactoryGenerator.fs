@@ -1,4 +1,4 @@
-﻿module Foo.Bar
+module Foo.Bar
 
 open VoxelTycoon
 open VoxelTycoon.Game.UI.ModernUI
@@ -277,8 +277,8 @@ type FactoryGeneratorModSettingsTool() =
                         if FactoryGeneratorManager.Current.Enabled then
                             "Enabled"
                         else
-                            "Disabled"
-                    ))
+                        ""
+                    )Enabled
 
             false
 
